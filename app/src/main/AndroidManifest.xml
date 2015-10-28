@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.senac.pi.demoviews" >
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -29,7 +31,7 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".ImageView"
+            android:name=".ImageViewDemo"
             android:label="@string/title_activity_image_view"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>

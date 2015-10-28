@@ -49,5 +49,10 @@
         android:layout_height="wrap_content"
         android:text="CheckBoxView"
         android:id="@+id/btnCheckBox" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressDialog Demo"
+        android:id="@+id/btnProgressDialog"/>
 
  </LinearLayout>
